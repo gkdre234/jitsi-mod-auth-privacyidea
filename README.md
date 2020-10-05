@@ -33,8 +33,9 @@ Secure Your Jitsi Domain
 (Gguide: https://github.com/jitsi/jicofo#secure-domain)
 
 # Login
-Username : user#realm
-Passord  : token
+Username  : user#realm
+
+Password  : token
 
 
 ![Alt text](login-prompt.png?raw=true "Login prompt")
