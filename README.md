@@ -31,3 +31,5 @@ VirtualHost "meet.example.org"
 ~~~~
 Secure Your Jitsi Domain
 (Gguide: https://github.com/jitsi/jicofo#secure-domain)
+
+![Alt text](login-prompt.png?raw=true "Login prompt")
