@@ -12,7 +12,7 @@ log() {
   fi
 }
 
-PI_URL="https://2fa.gkd-re.net/validate/check"
+PI_URL="https://your.privacyidea.server/validate/check"
 USER_AGENT="jitsi"
 CHECK_SSL=0
 HTTP_CMD="/usr/bin/http"
