@@ -26,6 +26,6 @@ VirtualHost "meet.example.org"
         external_auth_timeout = 10
         -- Properties below are modified by jitsi-meet-tokens package config
         
-        ~~~~
+
 ~~~~
 
