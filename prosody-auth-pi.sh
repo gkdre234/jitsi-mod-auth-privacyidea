@@ -2,7 +2,6 @@
 
 AUTH_OK=1
 AUTH_FAILED=0
-LOGFILE="/var/log/auth-pi.log"
 USELOG=true
 
 log() {
