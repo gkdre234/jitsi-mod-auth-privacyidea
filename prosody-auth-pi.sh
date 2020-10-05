@@ -17,7 +17,7 @@ USER_AGENT="jitsi"
 CHECK_SSL=0
 HTTP_CMD="/usr/bin/http"
 ADD_REALM_TO_USERNAME_AT=true
-ADD_REALM_TO_USERNAME_AT_EXCLUDE="jobcenter realm2 realm3"
+ADD_REALM_TO_USERNAME_AT_EXCLUDE="realm1 realm2.suffix realm3.suf.fix"
 
 #Auth input ACTION:USERSTRING:HOST:PASS  # ACTION and HOST ignored...
 while read AUTH_INPUT ; do
