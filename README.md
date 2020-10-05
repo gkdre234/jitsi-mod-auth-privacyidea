@@ -25,5 +25,7 @@ VirtualHost "meet.example.org"
         external_auth_command = "/usr/local/bin/prosody-auth-pi.sh"
         external_auth_timeout = 10
         -- Properties below are modified by jitsi-meet-tokens package config
-        ~~~~
         
+        ~~~~
+~~~~
+
