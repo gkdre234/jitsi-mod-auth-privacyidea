@@ -47,7 +47,6 @@ while read AUTH_INPUT ; do
      log "User=$USER Realm=${REALM} http-status=${RESULT} auth failed"
      echo "${AUTH_FAILED}"
     else
-
      JSON_OUTPUT=$(echo "${HTTP_CMD_OUTPUT}" | JSON.sh -b)
      AUTH_STATUS=$(echo "${JSON_OUTPUT}" | grep "\[\"result\",\"value\"\]" | cut -s -f 2)
      AUTH_MESSAGE=$(echo "${JSON_OUTPUT}" | grep "\[\"detail\",\"message\"\]" | cut -s -f 2)
