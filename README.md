@@ -29,4 +29,5 @@ VirtualHost "meet.example.org"
         
 
 ~~~~
-
+Secure Your Jitsi Domain
+(Gguide: https://github.com/jitsi/jicofo#secure-domain)
