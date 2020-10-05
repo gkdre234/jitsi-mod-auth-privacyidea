@@ -12,6 +12,7 @@ apt install lua-pty
 ~~~~shell
 Copy the mod_auth_external.lua to your modules directory like /usr/lib/prosody/modules/.
 Copy the JSON.sh and prosody-auth-pi.sh to /usr/local/bin/.
+chmod +x /usr/local/bin/*
 ~~~~
 
 # Setup:
