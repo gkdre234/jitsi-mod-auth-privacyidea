@@ -32,4 +32,6 @@ VirtualHost "meet.example.org"
 Secure Your Jitsi Domain
 (Gguide: https://github.com/jitsi/jicofo#secure-domain)
 
+# Login with user#realm
+
 ![Alt text](login-prompt.png?raw=true "Login prompt")
