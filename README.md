@@ -34,6 +34,22 @@ VirtualHost "meet.example.org"
 Secure Your Jitsi Domain
 (Gguide: https://github.com/jitsi/jicofo#secure-domain)
 
+Modify LoginDialog.js
+~~~~shell
+--- jitsi-orig/jitsi-meet/modules/UI/authentication/LoginDialog.js	2020-10-08 17:32:18.484057855 +0200
++++ jitsi-local/jitsi-meet/modules/UI/authentication/LoginDialog.js	2020-10-08 15:12:50.803658853 +0200
+@@ -12,7 +12,7 @@
+ function getPasswordInputHtml() {
+     const placeholder = config.hosts.authdomain
+         ? 'user identity'
+-        : 'user@domain.net';
++        : 'user#realm';
+ 
+     return `
+         <input name="username" type="text"
+
+~~~~
+
 # Login
 Username  : user#realm
 
