@@ -5,7 +5,7 @@ plugin to authenticate Jitsi Meet against PrivacyIDEA
 
 ~~~~shell
 apt install httpie
-apt install lua-pty
+apt install lua-lpty
 ~~~~
 
 # Install:
