@@ -1,5 +1,6 @@
 #!/bin/bash
 
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 AUTH_OK=1
 AUTH_FAILED=0
 USELOG=true
